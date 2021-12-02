@@ -59,9 +59,6 @@ function displayNumber(num) {
 
 // === on appelle cette Fonction  lorsque l'utilisateur click sur un opérateur
 function operatorCall(operationSignal) {
-  // prevOperator = operator;
-  // operator = operationSignal;
-
   // Checks if there is no previous number waiting for operation
   if (storedOperatorDisplay.textContent == "" && firstOperand == null) {
     firstOperand = secondOperand;
